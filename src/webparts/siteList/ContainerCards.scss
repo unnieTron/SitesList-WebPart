@@ -1,0 +1,171 @@
+.ContainerCards {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 336px;
+    width: 100%;
+    perspective-origin: 684px 168px;
+    transform-origin: 684px 168px;
+    font: normal normal normal normal 16px / normal Times;
+    margin: 0px 0px 10px;
+}/*#DIV_1*/
+
+.ContainerCards div{
+    box-sizing: border-box;
+    perspective-origin: 684px 0px;
+    transform-origin: 684px 0px;
+    font: normal normal normal normal 16px / normal Times;
+}/*#DIV_2, #DIV_3, #DIV_44, #DIV_77*/
+.ContainerCardFocusZone{
+    display: inline;
+}
+.ContainerCard-withActivities {
+    bottom: 0px;
+    box-sizing: border-box;
+    float: left;
+    height: 320px;
+    left: 0px;
+    min-height: 136px;
+    overflow-wrap: break-word;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: 200px;
+    word-wrap: break-word;
+    z-index: 0;
+    perspective-origin: 120px 160px;
+    transform-origin: 120px 160px;
+    animation: fadeIn 0.367s ease 0s 1 normal both running;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    font: normal normal normal normal 16px / normal Times;
+    margin: 0px 16px 16px 0px;
+}/*#DIV_4, #DIV_45*/
+.ContainerCard-NoActivities {
+    bottom: 0px;
+    box-sizing: border-box;
+    float: left;
+    left: 0px;
+    min-height: 136px;
+    overflow-wrap: break-word;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: 200px;
+    word-wrap: break-word;
+    z-index: 0;
+    perspective-origin: 120px 160px;
+    transform-origin: 120px 160px;
+    animation: fadeIn 0.367s ease 0s 1 normal both running;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    font: normal normal normal normal 16px / normal Times;
+    margin: 0px 16px 16px 0px;
+}/*#DIV_4, #DIV_45*/
+
+.ContainerCards a
+ {
+    overflow-wrap: break-word;
+    text-decoration: none;
+    word-wrap: break-word;
+    font: normal normal normal normal 16px / normal Times;
+}/*#A_6, #A_47*/
+
+.ContainerCard-header{
+    bottom: 0px;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px 4px 3px -3px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 238);
+    cursor: pointer;
+    height: 136px;
+    left: 0px;
+    overflow-wrap: break-word;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: 200px;
+    word-wrap: break-word;
+    column-rule-color: rgb(0, 0, 238);
+    perspective-origin: 120px 68px;
+    transform-origin: 120px 68px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 0px none rgb(0, 0, 238);
+    border-right: 0px none rgb(0, 0, 238);
+    border-bottom: 2px solid rgb(234, 234, 234);
+    border-left: 0px none rgb(0, 0, 238);
+    font: normal normal normal normal 16px / normal Times;
+    outline: rgb(0, 0, 238) none 0px;
+    padding: 36px 0px 0px;
+}/*#DIV_7, #DIV_48*/
+
+.ContainerCard-header:after {
+    bottom: -3px;
+    color: rgb(0, 0, 238);
+    content: '"' '"';
+    cursor: pointer;
+    display: block;
+    height: 3px;
+    left: 0px;
+    opacity: 0;
+    overflow-wrap: break-word;
+    position: absolute;
+    right: 0px;
+    top: 134px;
+    width: 240px;
+    word-wrap: break-word;
+    z-index: 0;
+    column-rule-color: rgb(0, 0, 238);
+    perspective-origin: 120px 1.5px;
+    transform-origin: 120px 1.5px;
+    background: rgb(187, 187, 187) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 238);
+    font: normal normal normal normal 16px / normal Times;
+    outline: rgb(0, 0, 238) none 0px;
+}/*#DIV_7:after, #DIV_48:after*/
+
+
+
+.ContainerCard-headerBackground {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 36px;
+}/*#DIV_9*/
+
+.ContainerCard-acronym {
+  left: 12px;
+   position: absolute;
+    top: 12px;
+    padding-top: 7px;
+    width: 48px;
+    height: 48px;
+    color: #333;
+    font-family: 'Segoe UI Light WestEuropean','Segoe UI Light','Segoe WP Light','Segoe UI','Segoe WP',Tahoma,Arial,sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Segoe UI Regular WestEuropean','Segoe UI','Segoe WP',Tahoma,Arial,sans-serif;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,.2);
+    border: 1px solid #fff;
+}/*#DIV_10*/
+
+.ContainerCard-title {
+  text-align: left;
+    font-family: 'Segoe UI Semilight WestEuropean','Segoe UI Semilight','Segoe WP Semilight','Segoe UI','Segoe WP',Tahoma,Arial,sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    width: 100%;
+    line-height: 17px;
+    margin-top: 30px;
+    padding: 0 12px;
+    color: #333;
+    -webkit-animation-duration: 367ms;
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-fill-mode: both;
+    animation-duration: 367ms;
+    animation-name: fadeIn;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 267ms;
+    animation-duration: 267ms;
+    -webkit-animation-delay: 50ms;
+    animation-delay: 50ms;
+}/*#DIV_11, #DIV_52*/
+
